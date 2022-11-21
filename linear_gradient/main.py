@@ -20,6 +20,6 @@ for i, m in enumerate(np.linspace(0, 1, image.shape[0])):
         b = lerp(color1[2], color2[2], (n + m) / 2)
         image[i, j, ::-1] = [r, g, b]
 
-plt.figure(1)
-plt.imshow(image)
-plt.show()
+# plt.figure(1)
+# plt.imshow(image)
+# plt.show()
